@@ -19,9 +19,9 @@ from first.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',greeting),
-    path('rmlau',rmlau),
-    path('ram',ayodhya),
+
+    path('',aim),
+   
 ]
 
 
